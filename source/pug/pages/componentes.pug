@@ -1,0 +1,120 @@
+.container
+
+    .header-ecored
+        h1 Introducción
+
+    .card
+        .card-body.p-5
+            p.mt-4 La desnutrición, entendida como una enfermedad de origen social, es producto de la inseguridad alimentaria y nutricional en el hogar. Suelen ser los niños menores de 5 años los más afectados y se caracteriza por presentar deterioro en la composición corporal y alteraciones sistémicas de las funciones orgánicas y psicosociales, cuya gravedad dependerá de la calidad de la dieta consumida.
+
+
+            .bg-color-verde-claro.mt-5.py-4.cont-flecha.text-center
+                p.font-weight-bold De acuerdo con las OMS, la desnutrición se puede presentar de las siguientes formas: 
+
+            .row.justify-content-center.mt-6
+                .col-3.d-flex.justify-content-center
+                    img(src="assets/images/pages/tema-1/tema-1-1.svg").img-fluid.imagen-sobre-puesta
+                .col-3.d-flex.justify-content-center
+                    img(src="assets/images/pages/tema-1/tema-1-2.svg").img-fluid.imagen-sobre-puesta
+                .col-3.d-flex.justify-content-center
+                    img(src="assets/images/pages/tema-1/tema-1-3.svg").img-fluid.imagen-sobre-puesta
+                    
+            .row.mt-5.d-flex.justify-content-center
+                .col-3.bg-color-naranja.borde.pl-5.pt-6.pb-5
+                    p Desnutrición 
+                    p aguda
+                .col-3.bg-color-verde-oscuro.borde.pl-5.pt-6.pb-5
+                    p Retraso en 
+                    p talla
+                .col-3.bg-color-verde-claro.borde.pl-5.pt-6.pb-5
+                    p Deficiencias
+                    p de micronutrientes
+            .row.mt-5
+                .col-auto
+                    img(src="assets/images/pages/tema-1/vineta.svg").img-fluid
+                .col
+                    p.pt-1 Está indicada
+
+    .card
+        .card-body.p-5
+            table(style='width:100%')
+                    tr.bg-color-naranja
+                        th.p-4.text-center.borde Indicador antropométrico
+                        th.text-center.borde 
+                            p.font-weight-bold.m-0 Punto de corte 
+                            p.font-weight-bold.m-0 Desviaciones estándar DE.
+                        th.pl-4.borde Clasificación 
+                    tr
+                        <td rowspan="4" class="bg-color-naranja-oscuro-tabla borde font-weight-bold text-center"><p class="m-0 Font-weight-bold"> Peso para la Talla (P/T)</p></td>
+                        td.p-3.bg-color-naranja-oscuro-tabla.borde.text-center ≥ -1 a ≤ +1
+                        td.py-3.pl-4.bg-color-naranja-oscuro-tabla.borde Peso adecuado para la talla
+                    tr
+                        td.p-3.bg-color-naranja-claro-tabla.borde.text-center ≥ -2 a < -1
+                        td.py-3.pl-4.bg-color-naranja-claro-tabla.borde Riesgo de desnutrición aguda
+                    tr
+                        td.p-3.bg-color-naranja-oscuro-tabla.borde.text-center < -2 a ≥ -3
+                        td.py-3.pl-4.bg-color-naranja-oscuro-tabla.borde Desnutrición aguda moderada
+                    tr
+                        td.p-3.bg-color-naranja-claro-tabla.borde.text-center < -3
+                        td.py-3.pl-4.bg-color-naranja-claro-tabla.borde Desnutrición aguda severa
+            
+            .row.justify-content-center
+                .col-12.col-md-9
+                    #accordionExample.accordion.mt-5
+                        .card
+                            #headingOne.card-header
+                                h2.mb-0
+                                    button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne').pl-0
+                                        h4.mb-0.collapsable-title.d-flex.align-items-center a. Peso para la longitud/talla (P/T)
+                            #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample')
+                                .card-body
+                                    p Este es un indicador de crecimiento donde se relaciona el peso con longitud o la talla, dando cuenta del estado nutricional actual del niño o niña.
+                                    p.mt-3 Con este indicador se identifica la desnutrición aguda moderada o severa en niños y niñas menores de cinco (5) años. Cuando esta situación se presenta, ellos deberán ser atendidos según lo establecido en la ruta específica y el lineamiento para la atención integrada de la desnutrición aguda, de acuerdo con la normatividad vigente.                                 
+                        .card
+                            #headingTwo.card-header  
+                                h2.mb-0
+                                    button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='true', aria-controls='collapseTwo').pl-0
+                                        h4.mb-0.collapsable-title.d-flex.align-items-center b. Talla para la edad (T/E)
+                            #collapseTwo.collapse.show(aria-labelledby='headingTwo', data-parent='#accordionExample')
+                                .card-body
+                                    p Es un indicador de crecimiento que relaciona la talla o longitud con la edad, dando cuenta del estado nutricional histórico o acumulativo del individuo.
+                                    p.mt-3 Debe tenerse en cuenta que:
+                                    .row.ml-1.mt-4
+                                        .col-auto
+                                            img(src="assets/images/pages/tema-2/vineta-flecha.svg").img-fluid
+                                        .col
+                                            p La talla baja para la edad, conforme a este indicador, se presenta con mayor frecuencia en hogares con inseguridad alimentaria, bajo acceso a servicios de salud, agua y saneamiento básico.
+                                    .row.ml-1.mt-4
+                                        .col-auto
+                                            img(src="assets/images/pages/tema-2/vineta-flecha.svg").img-fluid
+                                        .col
+                                            p Es más severo el retraso en talla si se inicia a edades tempranas, asociándose a bajo peso materno, peso y talla bajos al nacer, prácticas inadecuadas de lactancia materna y alimentación complementaria, y enfermedades infecciosas recurrentes, entre otros.
+                        .card
+                            #headingTree.card-header  
+                                h2.mb-0
+                                    button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseTree', aria-expanded='true', aria-controls='collapseTree').pl-0
+                                        h4.mb-0.collapsable-title.d-flex.align-items-center c. Perímetro cefálico para la edad
+                            #collapseTree.collapse.show(aria-labelledby='headingTree', data-parent='#accordionExample')
+                                .card-body
+                                    p Con la medición del perímetro cefálico se identifica el crecimiento del encéfalo y la evolución de los huesos del cráneo.
+                                    p.mt-3 Debe tenerse en cuenta que:
+                                    .row.ml-1.mt-4
+                                        .col-auto
+                                            img(src="assets/images/pages/tema-2/vineta-flecha.svg").img-fluid
+                                        .col
+                                            p Se emplea como parte de la detección de posibles alteraciones neurológicas o del desarrollo en los niños y niñas.
+                                    .row.ml-1.mt-4
+                                        .col-auto
+                                            img(src="assets/images/pages/tema-2/vineta-flecha.svg").img-fluid
+                                        .col
+                                            p Los perímetros pequeños como los grandes se relacionan con un riesgo para la salud y desarrollo. Esta medición no es muy útil para determinar el estado nutricional o vigilar la respuesta a las intervenciones de nutrición. 
+                                    .row.ml-1.mt-4
+                                        .col-auto
+                                            img(src="assets/images/pages/tema-2/vineta-flecha.svg").img-fluid
+                                        .col
+                                            p En la evaluación de este perímetro, se debe integrar el desarrollo psicomotor del niño o niña con su evolución, por lo cual es relevante su seguimiento. 
+                                    .row.ml-1.mt-4
+                                        .col-auto
+                                            img(src="assets/images/pages/tema-2/vineta-flecha.svg").img-fluid
+                                        .col
+                                            p
