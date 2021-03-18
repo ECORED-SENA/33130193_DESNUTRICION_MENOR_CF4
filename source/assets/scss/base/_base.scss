@@ -106,6 +106,10 @@ a {
   }
 }
 
+a.linkAnexo{
+  color: #12263F !important;
+}
+
 a:not([href]) {
   color: $link-color;
   text-decoration: $link-decoration;

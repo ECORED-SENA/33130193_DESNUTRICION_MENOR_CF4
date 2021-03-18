@@ -30,7 +30,9 @@
   </defs>
   <g id="Grupo_26722" data-name="Grupo 26722" transform="translate(-173 -3890)">
     <rect id="Rectángulo_25881" data-name="Rectángulo 25881" width="947" height="160" transform="translate(294 3924)" fill="#eae699"/>
-    <text id="Describir_el_comportamiento_de_las_muertes_en_menores_de_cinco_años_por_IRA_EDA_o_por_desnutrición_a_través_de_la_caracterización_en_tiempo_persona_y_lugar." data-name="Describir el comportamiento de las muertes en menores de cinco años por IRA, EDA o por desnutrición a través de la caracterización en tiempo, persona y lugar." transform="translate(467 3978)" fill="#00223d" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="19">Describir el comportamiento de las muertes en menores de cinco años por IRA, EDA o </tspan><tspan x="0" y="49">por desnutrición a través de la caracterización en tiempo, persona y lugar.</tspan></text>
+    <text id="Describir_el_comportamiento_de_las_muertes_en_menores_de_cinco_años_por_IRA_EDA_o_por_desnutrición_a_través_de_la_caracterización_en_tiempo_persona_y_lugar." data-name="Describir el comportamiento de las muertes en menores de cinco años por IRA, EDA o por desnutrición a través de la caracterización en tiempo, persona y lugar." transform="translate(467 3978)" fill="#00223d" font-size="18" font-family="SegoeUI, Segoe UI">
+    <tspan x="0" y="19">Describir el comportamiento de las muertes, en menores de cinco años por IRA, EDA o </tspan>
+    <tspan x="0" y="49">por desnutrición, a través de la caracterización en tiempo, persona y lugar.</tspan></text>
     <g id="Grupo_25997" data-name="Grupo 25997" transform="translate(0 -9)">
       <circle id="Elipse_1812" data-name="Elipse 1812" cx="120.5" cy="120.5" r="120.5" transform="translate(173 3899)" fill="#ed8730"/>
       <g id="Enmascarar_grupo_4" data-name="Enmascarar grupo 4" transform="translate(0 -102)" clip-path="url(#clip-path)">

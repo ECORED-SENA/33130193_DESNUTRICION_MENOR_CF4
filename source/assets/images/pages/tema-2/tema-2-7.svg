@@ -3952,7 +3952,11 @@
   <g id="Grupo_26723" data-name="Grupo 26723" transform="translate(-176 -4171)">
     <rect id="Rectángulo_25886" data-name="Rectángulo 25886" width="947" height="211" transform="translate(294 4183)" fill="#eae699"/>
     <text id="Identificar_los_determinantes_sociales_y_factores_que_condicionan_la_ocurrencia_de_muerte_por_IRA_EDA_o_desnutrición_que_permitan_orientar_el_diseño_e_implementación_de_intervenciones_que_afecten_de_manera_positiva_estos_determinantes._" data-name="Identificar los determinantes sociales y factores que condicionan la ocurrencia de muerte por IRA, EDA o desnutrición, que permitan orientar el diseño e implementación de intervenciones que afecten de manera positiva estos determinantes.
-" transform="translate(467 4225)" fill="#00223d" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="19">Identificar los determinantes sociales y factores que condicionan la ocurrencia de </tspan><tspan x="0" y="49">muerte por IRA, EDA o desnutrición, que permitan orientar el diseño e implementación </tspan><tspan x="0" y="79">de intervenciones que afecten de manera positiva estos determinantes.</tspan><tspan font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="109"></tspan></tspan></text>
+" transform="translate(467 4225)" fill="#00223d" font-size="18" font-family="SegoeUI, Segoe UI">
+<tspan x="0" y="19">Identificar los determinantes sociales y los factores que condicionan la ocurrencia de  </tspan>
+<tspan x="0" y="49">muerte por IRA, EDA o desnutrición, que permitan orientar el diseño e implementación  </tspan>
+<tspan x="0" y="79">de intervenciones que afecten de manera positiva, a estos determinantes.</tspan>
+<tspan font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="109"></tspan></tspan></text>
     <g id="Grupo_26341" data-name="Grupo 26341">
       <circle id="Elipse_1812" data-name="Elipse 1812" cx="120.5" cy="120.5" r="120.5" transform="translate(176 4171)" fill="#ed8730"/>
       <g id="Enmascarar_grupo_5" data-name="Enmascarar grupo 5" transform="translate(3 -3)" clip-path="url(#clip-path)">
