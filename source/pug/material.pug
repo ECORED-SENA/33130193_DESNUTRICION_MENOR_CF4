@@ -34,9 +34,9 @@ html(lang="es")
                         .card.wow.flipInX(data-wow-delay=".4s")
                             .card-body
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('0', 'Introducción', 'main.html#page/intro/')
-                                    +navTemaItem('1', 'Vigilancia en salud pública del evento desnutrición aguda moderada y severa en menores de cinco años', 'main.html#page/tema-1/')
-                                    +navTemaItem('2', 'Vigilancia integrada de muertes en menores de cinco años por IRA, EDA o desnutrición', 'main.html#page/tema-2/')
+                                    +navTemaItem('text', 'Introducción', '#intro')
+                                    +navTemaItem('1', 'Vigilancia en salud pública del evento desnutrición aguda moderada y severa en menores de cinco años', '#tema-1')
+                                    +navTemaItem('2', 'Vigilancia integrada de muertes en menores de cinco años por IRA, EDA o desnutrición', '#tema-2')
                                     +navTemaItem('glosario', 'Glosario', '#glosario')
                                     +navTemaItem('complementario', 'Material complementario', '#anexos')
                                     +navTemaItem('referencias', 'Referencias bibliográficas', '#referencias')
@@ -44,6 +44,8 @@ html(lang="es")
 
         section#mainContent         
 
+            #intro
+                include pages/intro.pug
             #tema-1
                 include pages/tema-1.pug
             #tema-2
